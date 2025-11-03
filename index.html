@@ -10,42 +10,77 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Пиксельный фон -->
+    <div class="pixel-background"></div>
+    <div class="floating-pixels"></div>
+    
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
                 <span class="dot"></span>
-                Антон Митенков
+                <span class="brand-text">Антон Митенков</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#about">Обо мне</a></li>
-                <li><a href="#skills">Навыки</a></li>
-                <li><a href="#experience">Опыт</a></li>
-                <li><a href="#education">Образование</a></li>
-                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#experience" class="nav-link">Опыт</a></li>
+                <li><a href="#education" class="nav-link">Образование</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
             </ul>
+            <div class="nav-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
     <main>
         <section id="hero" class="hero">
-            <div class="hero-content">
-                <h1>Системный аналитик</h1>
-                <p>Анализирую - систематизирую</p>
-                <div class="hero-info">
-                    <div class="info-item">
-                        <span class="dot"></span>
-                        <span>25 лет</span>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Системный аналитик</h1>
+                    <p class="hero-subtitle">Анализирую - систематизирую</p>
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <span class="dot"></span>
+                            <span>25 лет</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="dot"></span>
+                            <span>3 года 11 месяцев опыта</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="dot"></span>
+                            <span>Санкт-Петербург</span>
+                        </div>
                     </div>
-                    <div class="info-item">
-                        <span class="dot"></span>
-                        <span>3 года 11 месяцев опыта</span>
+                    <div class="hero-cta">
+                        <button class="cta-button" id="contactBtn">
+                            <span class="dot"></span>
+                            Связаться со мной
+                        </button>
                     </div>
-                    <div class="info-item">
+                    <div class="hero-dots">
                         <span class="dot"></span>
-                        <span>Санкт-Петербург</span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
                     </div>
                 </div>
-                <div class="hero-dots">
+                <div class="hero-photo">
+                    <div class="profile-photo placeholder">
+                        <span>AM</span>
+                    </div>
+                    <div class="photo-frame"></div>
+                    <div class="photo-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-dots">
                     <span class="dot"></span>
                     <span class="dot"></span>
                     <span class="dot"></span>
@@ -247,27 +282,6 @@
                 </div>
             </div>
         </section>
-
-        <section id="about" class="section">
-            <h2 class="section-title">Обо мне</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>Системный аналитик с почти 4-летним опытом в разработке и внедрении ERP-систем, бизнес-анализе и управлении требованиями. Преподаватель в Университете ИТМО.</p>
-                    <div class="about-details">
-                        <div class="detail-item">
-                            <strong>Не рассматриваю вакансии</strong> (особенно с 1С)
-                        </div>
-                        <div class="detail-item">
-                            <strong>Интересы:</strong> баскетбол, история, информационные технологии, DJ
-                        </div>
-                        <div class="detail-item">
-                            <strong>Активности:</strong> постоянный читатель статей на Habr, прохожу курсы на Stepik
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
     <footer id="contact" class="footer">
@@ -309,5 +323,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="scripts/animations.js"></script>
 </body>
 </html>
