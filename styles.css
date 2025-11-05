@@ -42,7 +42,7 @@ body {
     background-position: center center;
     z-index: -1;
     opacity: 0.6;
-    animation: pixelMove 20s linear infinite;
+    animation: pixelMove 40s linear infinite;
 }
 
 @keyframes pixelMove {
@@ -634,11 +634,11 @@ body {
 .timeline-content {
     flex: 1;
     padding-left: 2rem;
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    border: 1px solid var(--border);
-    box-shadow: var(--card-shadow);
+   /* background: white;*/
+    /*bpadding: 2rem;*/
+    /*border-radius: 12px;*/
+   /* border: 1px solid var(--border);*/
+    /*box-shadow: var(--card-shadow);*/
 }
 
 .timeline-content h3 {
@@ -668,7 +668,7 @@ body {
 }
 
 .timeline-content li::before {
-    content: '•';
+    content: '<>';
     color: var(--accent);
     position: absolute;
     left: 0;
@@ -1048,4 +1048,15 @@ html {
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid var(--accent);
+    animation: rotate 10s linear infinite;
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
