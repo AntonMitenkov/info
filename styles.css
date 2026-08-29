@@ -171,6 +171,9 @@ body {
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 2rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+    line-height: 1.4;
 }
 
 .hero-title {
