@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Антон Митенков - Системный аналитик</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>Антон Митенков - Системный аналитик Middle</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Пиксельный фон -->
-    <div class="pixel-background"></div>
+    <!-- Фоновые градиенты -->
+    <div class="gradient-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
     
     <header class="header">
-        <nav class="nav">
+        <nav class="nav glass">
             <div class="nav-brand">
-                <div class="dot-grid">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
                 <span class="brand-text">Антон Митенков</span>
             </div>
             <ul class="nav-links">
@@ -40,72 +38,58 @@
         <section id="hero" class="hero">
             <div class="hero-container">
                 <div class="hero-content">
-                    <div class="hero-badge">
-                        <span class="dot"></span>
-                        Пишу скрипты на Python: проверка REST API и интеграций через брокер
+                    <div class="hero-badge glass">
+                        <span class="status-dot"></span>
+                        Системный аналитик, Middle
                     </div>
                     <h1 class="hero-title">
-                        <span class="title-line">Системный</span>
-                        <span class="title-line accent">аналитик</span>
+                        <span class="title-line">Анализирую</span>
+                        <span class="title-line gradient-text">Систематизирую</span>
                     </h1>
-                    <p class="hero-subtitle">Анализирую • Систематизирую • Оптимизирую</p>
+                    <p class="hero-subtitle">Проектирую информационные системы и интеграции для бизнеса</p>
                     
                     <div class="hero-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">4</div>
-                            <div class="stat-label">года опыта</div>
+                        <div class="stat-item glass">
+                            <div class="stat-number">4.8</div>
+                            <div class="stat-label">лет опыта</div>
                         </div>
-                        <div class="stat-item">
+                        <div class="stat-item glass">
                             <div class="stat-number">4</div>
                             <div class="stat-label">проекта</div>
                         </div>
-                        <div class="stat-item">
-                            <div class="stat-number">4</div>
-                            <div class="stat-label">ИТ-системы</div>
+                        <div class="stat-item glass">
+                            <div class="stat-number">25</div>
+                            <div class="stat-label">лет</div>
                         </div>
                     </div>
 
                     <div class="hero-actions">
                         <a href="#contact" class="btn btn-primary">
-                            <span class="btn-dots">
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </span>
                             Связаться со мной
                         </a>
                         <a href="#experience" class="btn btn-secondary">
-                            <span class="dot"></span>
-                            Опыт
+                            Опыт работы
                         </a>
                     </div>
                 </div>
                 
                 <div class="hero-visual">
                     <div class="visual-container">
-                        <div class="main-photo">
-                            <!-- Фотография -->
+                        <div class="main-photo glass-card">
                             <img src="images/photo.jpeg" alt="Антон Митенков" class="profile-photo">
-                         <!--    <div class="profile-photo placeholder">
-                                <span>AM</span>
-                            </div>-->
                         </div>
                         <div class="floating-elements">
-                            <div class="floating-card card-1">
-                                <span class="dot"></span>
+                            <div class="floating-card glass-card card-1">
                                 <span>SQL</span>
                             </div>
-                            <div class="floating-card card-2">
-                                <span class="dot"></span>
+                            <div class="floating-card glass-card card-2">
                                 <span>BPMN</span>
                             </div>
-                            <div class="floating-card card-2">
-                                <span class="dot"></span>
-                                <span>REST-API</span>
-                            </div>                            
-                            <div class="floating-card card-3">
-                                <span class="dot"></span>
-                                <span>UML</span>
+                            <div class="floating-card glass-card card-3">
+                                <span>Kafka</span>
+                            </div>
+                            <div class="floating-card glass-card card-4">
+                                <span>REST API</span>
                             </div>
                         </div>
                     </div>
@@ -113,64 +97,52 @@
             </div>
             
             <div class="scroll-indicator">
-                <div class="scroll-dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
                 </div>
             </div>
         </section>
 
         <!-- Обо мне -->
         <section id="about" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Обо мне</h2>
-                <div class="section-subtitle">Системный аналитик с фокусом на требования и интеграции</div>
-            </div>            
-            <div class="about-grid">
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>Специализируюсь на управлении требованиями, проектировании доработок и интеграций (REST, брокер сообщений). Опыт внедрения ERP и обследования процессов — исходная база: как устроен бизнес и как его переводить в постановки для разработки. Текущий трек — продуктовые и интеграционные задачи, не контур 1С.</p>                
-                        <div class="highlight-box">
-                            <div class="highlight-header">
-                                <!--<span class="dot"></span>-->
-                                <h3>Ключевые навыки</h3>
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Обо мне</h2>
+                    <p class="section-subtitle">Системный аналитик с фокусом на требования и интеграции</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>Специализируюсь на управлении требованиями, проектировании доработок и интеграций (REST, брокер сообщений). Опыт внедрения ERP и обследования процессов — исходная база: как устроен бизнес и как его переводить в постановки для разработки. Текущий трек — продуктовые и интеграционные задачи.</p>
+                            
+                            <div class="highlight-box glass">
+                                <h3>Ключевые компетенции</h3>
+                                <ul class="highlight-list">
+                                    <li>Проектирование информационных систем</li>
+                                    <li>Управление требованиями к ПО</li>
+                                    <li>Интеграции (REST, Apache Kafka)</li>
+                                    <li>Анализ и моделирование бизнес-процессов</li>
+                                    <li>Техническая документация</li>
+                                </ul>
                             </div>
-                            <ul class="highlight-list">
-                                <li>Проектирование</li>
-                                <li>Управление требованиями</li>
-                                <li>Интеграции</li>
-                                <li>Анализ и моделирование бизнес-процессов</li>
-                                <li>Техническая документация</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--... -->
-                    <div class="about-features">
-
-                        
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <!--<span class="dot"></span>-->
-                            </div>
-                            <h4>Широкий кругозор</h4>
-                            <p>Знание технологий, программ, методологий</p>
                         </div>
                         
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <!--<span class="dot"></span>-->
+                        <div class="about-features">
+                            <div class="feature-card glass">
+                                <h4>Широкий кругозор</h4>
+                                <p>Знание технологий, методологий и инструментов анализа</p>
                             </div>
-                            <h4>Бизнес-анализ</h4>
-                            <p>Глубокий анализ доменных областей и оптимизация процессов</p>
-                        </div>
+                            
+                            <div class="feature-card glass">
+                                <h4>Бизнес-анализ</h4>
+                                <p>Глубокий анализ доменных областей и оптимизация процессов</p>
+                            </div>
 
-                                                <div class="feature-card">
-                            <div class="feature-icon">
-                                <!--<span class="dot"></span>-->
+                            <div class="feature-card glass">
+                                <h4>Преподаватель ИТМО</h4>
+                                <p>Преподаю бизнес-информатику в ведущем IT-вузе страны</p>
                             </div>
-                            <h4>Преподаватель ИТМО</h4>
-                            <p>Преподаю бизнес-информатику в ведущем IT-вузе страны</p>
                         </div>
                     </div>
                 </div>
@@ -179,216 +151,187 @@
 
         <!-- Навыки -->
         <section id="skills" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Технические навыки</h2>
-                <div class="section-subtitle">Технологии и инструменты, которые я использую в работе</div>
-            </div>
-            
-            <div class="skills-categories">
-                <div class="category">
-                    <div class="category-header">
-                       <!-- убрал красную точку  <span class="dot"></span>-->
-                        <h3>Анализ & Проектирование</h3>
-                    </div>
-                        <div class="tools-grid">
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>BPMN</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>ERD</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>UML</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>SRS</span>
-                        </div>
-                    </div>           
-                </div>         
-                <div class="category">
-                    <div class="category-header">
-                        <!-- убрал красную точку  <span class="dot"></span>-->
-                        <h3>Языки & Архитектура</h3>
-                    </div>
-                        <div class="tools-grid">
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>SQL</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>REST-API</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>Python</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>SOA</span>
-                        </div>
-                    </div>
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Технические навыки</h2>
+                    <p class="section-subtitle">Инструменты и технологии в работе</p>
                 </div>
                 
-                <div class="category">
-                    <div class="category-header">
-                        <!-- убрал красную точку  <span class="dot"></span>-->
-                        <h3>Инструменты & Платформы</h3>
+                <div class="skills-grid">
+                    <div class="skill-category glass">
+                        <div class="category-header">
+                            <h3>Анализ и проектирование</h3>
+                        </div>
+                        <div class="tools-grid">
+                            <div class="tool-item">BPMN</div>
+                            <div class="tool-item">UML</div>
+                            <div class="tool-item">ERD</div>
+                            <div class="tool-item">PlantUML</div>
+                        </div>
                     </div>
-                    <div class="tools-grid">
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>Jira/YouTrack</span>
+                    
+                    <div class="skill-category glass">
+                        <div class="category-header">
+                            <h3>Языки и архитектура</h3>
                         </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>Confluence</span>
+                        <div class="tools-grid">
+                            <div class="tool-item">SQL</div>
+                            <div class="tool-item">REST API</div>
+                            <div class="tool-item">Apache Kafka</div>
+                            <div class="tool-item">OpenAPI Spec</div>
                         </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>DBeaver</span>
+                    </div>
+                    
+                    <div class="skill-category glass">
+                        <div class="category-header">
+                            <h3>Инструменты</h3>
                         </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>Postman</span>
+                        <div class="tools-grid">
+                            <div class="tool-item">Jira</div>
+                            <div class="tool-item">Confluence</div>
+                            <div class="tool-item">PostgreSQL</div>
+                            <div class="tool-item">DBeaver</div>
+                            <div class="tool-item">Postman</div>
+                            <div class="tool-item">n8n</div>
                         </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>PostgreSQL</span>
+                    </div>
+                    
+                    <div class="skill-category glass">
+                        <div class="category-header">
+                            <h3>Языки</h3>
                         </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>PlantUML</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>Apache Kafka</span>
-                        </div>
-                        <div class="tool-item">
-                            <span class="dot"></span>
-                            <span>Archi</span>
+                        <div class="tools-grid">
+                            <div class="tool-item">Русский (родной)</div>
+                            <div class="tool-item">Английский (B1)</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Опыт работы-->
+        <!-- Опыт работы -->
         <section id="experience" class="section">
-            <div class="experience-background">
-            <div class="section-header">
-                <h2 class="section-title">Опыт работы</h2>
-                <div class="section-subtitle">Мой профессиональный путь и ключевые проекты</div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">Апрель 2025 — По наст. время</div>
-                    <div class="timeline-content">
-                        <h3>Совкомбанк Технологии <a href="https://sovcombank.it" class="company-link">сайт</a></h3>
-                        <p class="timeline-role">Системный аналитик</p>
-                        <ul>
-                            <li><strong>Развитие КИС страховой</strong></li>
-                            <li>Оценка в человеко-часах и декомпозиция работ по проектам доработок</li>
-                            <li>Подготовка задач разработчикам</li>
-                            <li>Тестирование доработок: ручное, авто, подготовка сценариев</li>
-                            <li>Ведение проектной и продуктовой документации</li>
-                            <li>Участие в третьей линии поддержки</li>
-                            <li>Создание агентов на n8n для внутренних процессов</li>
-                            <li>Подготовка внутренних докладов</li>
-                            <li>Внедрение AI-практик в работу аналитика и команды</li>
-                        </ul>
-                        <div class="skills-used">
-                            <span class="skill-tag small">OpenAPI</span>
-                            <span class="skill-tag small">PostgreSQL</span>
-                            <span class="skill-tag small">Kafka</span>
-                            <span class="skill-tag small">REST-API</span>
-                            <span class="skill-tag small">Python</span>
-                            <span class="skill-tag small">n8n</span>
-                        </div>  
-                    </div>
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Опыт работы</h2>
+                    <p class="section-subtitle">Профессиональный путь и достижения</p>
                 </div>
                 
-                <div class="timeline-item">
-                    <div class="timeline-date">Сентябрь 2024 — По наст. время</div>
-                    <div class="timeline-content">
-                        <h3>Университет ИТМО <a href="https://ftmi.itmo.ru/ba/businessinformatics" class="company-link">сайт</a></h3>
-                        <p class="timeline-role">Преподаватель</p>
-                        <ul>
-                            <li>Лекции и практики направления «Бизнес-информатика»</li>
-                            <li>Создание курсов «Проектирование ИТ-решений» и «Базы данных»</li>
-                            <li>Ведение дипломных работ студентов</li>
-                        </ul>
-                        
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">Январь 2025 — Апрель 2025</div>
-                    <div class="timeline-content">
-                        <h3>ТЕХНОС-К <a href="https://www.tehnosk.ru/o-kompanii.html" class="company-link">сайт</a></h3>
-                        <p class="timeline-role">Системный аналитик</p>
-                        <ul>
-                            <li><strong>Проект ERP-системы для банка</strong></li>
-                            <li>Постановка задач дизайнерам и разработчикам в Jira</li>                            
-                            <li>Работа с требованиями</li>
-                            <li>Подготовка спецификаций по доработке</li>
-                            <li>Проектирование интеграций между сервисами и системами (REST, Kafka)</li>
-                            <li>Ведение документации в Confluence</li>
-
-                        </ul>
-                        <div class="skills-used">
-                            <span class="skill-tag small">PostgreSQL</span>
-                            <span class="skill-tag small">Apache Kafka</span>
-                            <span class="skill-tag small">REST</span>
-                            <span class="skill-tag small">Swagger</span>
-                            <span class="skill-tag small">Jira</span>
-                            <span class="skill-tag small">Confluence</span>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-period">Апрель 2025 — н.в.</span>
+                            <span class="date-duration">1 год 5 месяцев</span>
                         </div>
-                        
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">Март 2023 — Январь 2025</div>
-                    <div class="timeline-content">
-                        <h3>Газпром ЦПС <a href="https://gazpromcps.ru" class="company-link">сайт</a></h3>
-                        <p class="timeline-role">Системный аналитик • Бизнес-аналитик</p>
-                        <ul>
-                            <li><strong>Проект внедрения системы календарно-сетевого планирования (Plan-R):</strong> тестирование, описание доработок, проектирование интеграций, формирование ERD</li>
-                            <li><strong>Проект внедрения ERP (1C:УХ):</strong> обследование бизнес-доменов, проектирование 20+ бизнес-процессов, выстраивание коммуникации</li>
-                            <li><strong>Проект внедрения системы управленческого учета (1C:УХ):</strong> структурирование реестра процессов, курирование работы аналитиков</li>
-                            <li>Закрытие этапа проектирования двух проектов по внедрению 1С:УХ</li>
-                        </ul>
-                        <div class="skills-used">
-                            <span class="skill-tag small">BPMN</span>
-                            <span class="skill-tag small">EPC</span>
-                            <span class="skill-tag small">UML</span>
-                            <span class="skill-tag small">Системная интеграция</span>
-                            <span class="skill-tag small">ER-диаграммы</span>
+                        <div class="timeline-content glass">
+                            <h3>Совкомбанк Технологии</h3>
+                            <p class="timeline-role">Системный аналитик (Middle)</p>
+                            <ul>
+                                <li>Оценка в ч.ч. и декомпозиция работ по проектам доработок КИС страховой</li>
+                                <li>Подготовка задач разработчикам, тестирование доработок (ручное, авто)</li>
+                                <li>Ведение проектной и продуктовой документации</li>
+                                <li>Участие в 3-й линии поддержки</li>
+                                <li>Создание агентов на n8n для внутренних процессов</li>
+                                <li>Внедрение AI-практик в работу команды</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">OpenAPI</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">Kafka</span>
+                                <span class="skill-tag">n8n</span>
+                                <span class="skill-tag">AI-практики</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">Январь 2022 — Февраль 2023</div>
-                    <div class="timeline-content">
-                        <h3>АНТ-Консалт <a href="https://ant-konsalt.ru" class="company-link">сайт</a></h3>
-                        <p class="timeline-role">Бизнес-аналитик</p>
-                        <ul>
-                            <li><strong>Проект внедрения 1С:ERP:</strong> описание бизнес-процессов, предпроектное обследование, тестирование доработок</li>
-                            <li><strong>Развитие внутренних продуктов:</strong> составление ТЗ, формирование административных инструкций, настройка конфигураций 1С</li>
-                        </ul>
-                        <div class="skills-used">
-                            <span class="skill-tag small">Конфигурирование 1C</span>
-                            <span class="skill-tag small">Техническая документация</span>
-                            <span class="skill-tag small">Проведение интервью</span>
-                            <span class="skill-tag small">Написание инструкций</span>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-period">Сентябрь 2024 — н.в.</span>
+                            <span class="date-duration">2 года</span>
                         </div>
-                        
+                        <div class="timeline-content glass">
+                            <h3>Университет ИТМО</h3>
+                            <p class="timeline-role">Преподаватель</p>
+                            <ul>
+                                <li>Проведение лекционных и практических занятий по направлению "Бизнес-информатика"</li>
+                                <li>Курс "Базы данных" — проектирование баз данных</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">Преподавание</span>
+                                <span class="skill-tag">Проектирование БД</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-period">Январь 2025 — Апрель 2025</span>
+                            <span class="date-duration">4 месяца</span>
+                        </div>
+                        <div class="timeline-content glass">
+                            <h3>ТЕХНОС-К</h3>
+                            <p class="timeline-role">Ведущий системный аналитик</p>
+                            <ul>
+                                <li>Проект ERP-системы для банка: сбор и описание требований, согласование с заказчиком</li>
+                                <li>Подготовка спецификаций по функциональности для разработки</li>
+                                <li>Создание процессов в нотации BPMN</li>
+                                <li>Проектирование интеграций между сервисами (REST, Kafka)</li>
+                                <li>Ведение документации в Confluence, постановка задач в Jira</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">Kafka</span>
+                                <span class="skill-tag">REST</span>
+                                <span class="skill-tag">Swagger</span>
+                                <span class="skill-tag">Jira</span>
+                                <span class="skill-tag">Confluence</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-period">Март 2023 — Январь 2025</span>
+                            <span class="date-duration">1 год 11 месяцев</span>
+                        </div>
+                        <div class="timeline-content glass">
+                            <h3>Газпром ЦПС</h3>
+                            <p class="timeline-role">Системный аналитик / Ведущий бизнес-аналитик</p>
+                            <ul>
+                                <li><strong>Системный аналитик:</strong> ЧТЗ доработки (User story, Use case), sequence diagram и ERD в PlantUML, требования к REST-API, документация в Planform V Works, тестирование и приемка разработки</li>
+                                <li><strong>Бизнес-аналитик:</strong> обследование бизнес-доменов (бюджетирование, казначейство, инвестиционная программа), проектирование 20+ бизнес-процессов (BPMN, EPC), моделирование в Visio, Business Studio, Sila Union</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">BPMN</span>
+                                <span class="skill-tag">UML</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">Swagger</span>
+                                <span class="skill-tag">Visio</span>
+                                <span class="skill-tag">Business Studio</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-period">Январь 2022 — Февраль 2023</span>
+                            <span class="date-duration">1 год 2 месяца</span>
+                        </div>
+                        <div class="timeline-content glass">
+                            <h3>АНТ</h3>
+                            <p class="timeline-role">Бизнес-аналитик (Junior)</p>
+                            <ul>
+                                <li>Описание бизнес-процессов, предпроектное обследование для внедрения 1С: ERP</li>
+                                <li>Тестирование доработок, составление ЧТЗ на доработку конфигурации 1С</li>
+                                <li>Формирование административной инструкции по развертыванию корпоративного портала на Debian</li>
+                                <li>Настройка конфигураций 1С и наполнение их НСИ</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">1C: ERP</span>
+                                <span class="skill-tag">Техническая документация</span>
+                                <span class="skill-tag">Debian</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -396,132 +339,150 @@
 
         <!-- Образование -->
         <section id="education" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Образование</h2>
-                <div class="section-subtitle">Мое академическое и дополнительное образование</div>
-            </div>
-            <div class="education-grid">
-                <div class="education-item">
-                    <h3>Высшее образование</h3>
-                    <div class="education-details">
-                        <div class="edu-item">
-                            <h4>Национальный исследовательский университет ИТМО</h4>
-                            <p class="edu-period">Сентябрь 2022 — Июль 2024</p>
-                            <p>Технологического менеджмента и инноваций</p>
-                            <p class="edu-specialization">Направление "Бизнес-информатика", специализация "Информационные системы управления бизнесом"</p>
-                        </div>
-                        <div class="edu-item">
-                            <h4>Санкт-Петербургский государственный экономический университет</h4>
-                            <p class="edu-period">Сентябрь 2018 — Июль 2022</p>
-                            <p>Факультет информатики и прикладной математики</p>
-                            <p class="edu-specialization">Направление "Бизнес-информатика", специализация "Деловая аналитика"</p>
-                        </div>
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Образование</h2>
+                    <p class="section-subtitle">Высшее и дополнительное образование</p>
+                </div>
+                
+                <div class="education-grid">
+                    <div class="education-item glass">
+                        <h3>НИУ ИТМО</h3>
+                        <p class="edu-period">Сентябрь 2022 — Июль 2024</p>
+                        <p class="edu-faculty">Технологического менеджмента и инноваций</p>
+                        <p class="edu-specialization">Бизнес-информатика, Информационные системы управления бизнесом</p>
+                    </div>
+                    
+                    <div class="education-item glass">
+                        <h3>СПбГЭУ</h3>
+                        <p class="edu-period">Сентябрь 2018 — Июль 2022</p>
+                        <p class="edu-faculty">Факультет информатики и прикладной математики</p>
+                        <p class="edu-specialization">Бизнес-информатика, Деловая аналитика</p>
                     </div>
                 </div>
                 
-                <div class="education-item">
-                    <h3>Дополнительное образование</h3>
-                    <div class="education-details">
-                        <div class="edu-item">
-                            <h4>НИУ ИТМО</h4>
-                            <p class="edu-period">Сентябрь 2023 — Июнь 2024</p>
-                            <p>ДПО «Технологии анализа данных»</p>
+                <div class="additional-education">
+                    <h3 class="subsection-title">Дополнительное образование</h3>
+                    <div class="certs-grid">
+                        <div class="cert-item glass">
+                            <h4>Технологии анализа данных</h4>
+                            <p class="cert-org">НИУ ИТМО</p>
+                            <p class="cert-period">Сентябрь 2023 — Июнь 2024</p>
                         </div>
-                        <div class="edu-item">
-                            <h4>СПбГЭУ</h4>
-                            <p class="edu-period">Январь 2022 — Июнь 2022</p>
-                            <p>ДПО «Разработка и конфигурирование ПО на платформе 1С»</p>
-                            <p class="edu-specialization">Улучшенные навыки: Системный анализ, Управление требованиями к ПО, Проектирование информационных систем</p>
+                        
+                        <div class="cert-item glass">
+                            <h4>Разработка и конфигурирование ПО на платформе 1С</h4>
+                            <p class="cert-org">СПбГЭУ</p>
+                            <p class="cert-period">Январь 2022 — Июнь 2022</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>    
+        </section>
+
+        <!-- О себе -->
+        <section id="personal" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">О себе</h2>
+                </div>
+                
+                <div class="personal-content glass">
+                    <p>Играю в баскетбол. Изучаю историю и информационные технологии. Осваиваю DJ и 3D печать. Постоянный читатель статей на Habr, прохожу курсы на Stepik, веду курс в университете ИТМО.</p>
+                </div>
+            </div>
         </section>
 
         <!-- Контакты -->
         <section id="contact" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Контакты</h2>
-                <div class="section-subtitle">Свяжитесь со мной для обсуждения проектов</div>
-            </div>
-            
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <span class="dot"></span>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Телефон</h4>
-                            <a href="tel:+79969198694">+7 (996) 919-86-94</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <span class="dot"></span>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <a href="mailto:mitenkov.anton@bk.ru">mitenkov.anton@bk.ru</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <span class="dot"></span>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Telegram</h4>
-                            <a href="https://telegram.me/AntonMitenkov">@AntonMitenkov</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <span class="dot"></span>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Хабр Карьера</h4>
-                            <a href="https://career.habr.com/a-mitenkov">career.habr</a>
-                        </div>
-                    </div>
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Контакты</h2>
+                    <p class="section-subtitle">Свяжитесь со мной любым удобным способом</p>
                 </div>
                 
-                <div class="contact-note">
-                    <div class="note-header">
-                        <span class="dot"></span>
-                        <h4>Важно</h4>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item glass">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Местоположение</h4>
+                                <p>Санкт-Петербург, Россия</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item glass">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h4>Телефон</h4>
+                                <a href="tel:+79969198694">+7 (996) 919-86-94</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item glass">
+                            <div class="contact-icon">✈️</div>
+                            <div class="contact-details">
+                                <h4>Telegram</h4>
+                                <a href="https://t.me/AntonMitenkov">@AntonMitenkov</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item glass">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:mitenkov.anton@bk.ru">mitenkov.anton@bk.ru</a>
+                            </div>
+                        </div>
                     </div>
-                    <p>Сейчас не рассматриваю предложения о трудоустройстве. Целевой профиль — системный анализ, интеграции и продуктовые доработки; опыт 1С оставляю как прошлый домен процессов и ERP, не как направление поиска.</p>
+                    
+                    <div class="contact-note glass">
+                        <h4>Открыт к предложениям</h4>
+                        <p>Рассматриваю интересные проекты в области системного анализа, проектирования информационных систем и интеграций. Готов обсудить возможности сотрудничества.</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-brand">
-                <div class="dot-grid">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-                <span>Антон Митенков</span>
-                
-            </div>
-            <div class="footer-links">
-                <a href="#about">Обо мне</a>
-                <a href="#experience">Опыт</a>
-                <a href="#contact">Контакты</a>
-            </div>
-            <div class="footer-copy">
-                <span>© 2025 Все права защищены (наверно)
-                <br>Дизайн вдохновлен продуктами компании nothing.tech</br></span>
-            </div>
+        <div class="footer-container">
+            <p>&copy; 2025 Антон Митенков. Системный аналитик.</p>
         </div>
-        
     </footer>
+
+    <script>
+        // Плавная прокрутка для якорных ссылок
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Анимация появления при скролле
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.glass, .glass-card, .timeline-item').forEach(el => {
+            el.classList.add('animate-on-scroll');
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
